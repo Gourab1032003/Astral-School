@@ -1,0 +1,59 @@
+body{
+    background-image: url(./assets/images/background.jfif);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px white;
+}
+.logo{
+    height: 20px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.3rem;
+}
+.sub-heading{
+    font-size: 3rem;
+}
+.main{
+    flex: 1;
+    display: block;
+}
+.image{
+    float: left;
+    height: 200px;
+    border-radius: 50%;
+}
+.div1{
+    float:left;
+}
+.div2{
+    float:right;
+}
+.sub{
+    width: 45%;
+}
+.heading{
+    font-size: 4rem;
+}
+p{
+    font-weight: bolder;
+}
+@media(max-width: 680px){
+    .logo{
+        width: 100px;
+    }
+    .sub{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify
+    }
+    .image{
+    margin-bottom: 10px;
+    display: inline;
+    }
+}
